@@ -62,7 +62,7 @@ def regions_are_valid(regions):
     invalid_regions = [not region_values.issubset(
         allowed_values) for region_values in region_unique_values]
 
-    if any(invalid_regions):
+    if anyinvalid_regions):
         return False
 
     return True
